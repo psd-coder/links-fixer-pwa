@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="LinkFixer" />
+  <link rel="manifest" href="site.webmanifest" />
+  <meta name="theme-color" content="#f5f5f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
+  <title>Link Fixer</title>
+</head>
+
+<body>
+  <x-link-fixer>
+    <x-toast-container data-ref="toasts" class="toast_container"></x-toast-container>
+    <h1>Fix link and open</h1>
+    <textarea data-ref="textarea" placeholder="Paste a broken link here..." autofocus></textarea>
+  </x-link-fixer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
